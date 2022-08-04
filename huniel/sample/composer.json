@@ -1,0 +1,21 @@
+{
+    "name": "huniel/sample",
+    "autoload": {
+        "psr-4": {
+            "Huniel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Huniel"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Huniel\\SimpleServiceProvider"
+            ]
+        }
+    }
+}
